@@ -1,0 +1,165 @@
+body {
+  background: #f3f3f3;
+}
+
+#navbar {
+  height: 7vh;
+  color: #f3f3f3;
+}
+
+.container-fluid {
+  background: #004e73;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #f3f3f3;
+  padding: 10px;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+#welcome-section {
+  margin: 0;
+  height: 100vh;
+  position: relative;
+}
+
+#welcome-text {
+  width: 100%;
+  padding-top: 15vh;
+  padding-left: 7vw;
+  padding-right: 7vw;
+  color: rgb(35, 35, 35);
+}
+
+@media (min-width: 576px) {
+  #welcome-text {
+    width: calc(100% - 200px);
+    padding-top: 30vh;
+    padding-left: 10vw;
+  }
+}
+
+h1 {
+  font-size: 52px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  line-height: 62px;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 350;
+  letter-spacing: 3px;
+  line-height: 48px;
+  margin: 0;
+}
+
+@media (min-width: 576px) {
+  h2 {
+    font-size: 25px;
+  }
+}
+
+#social-links {
+  font-size: 30px;
+  margin-top: 30px;
+}
+
+a {
+  color: inherit;
+}
+
+.blink {
+  animation: blink 0.6s infinite;
+}
+
+@keyframes blink {
+  to {
+    opacity: .0;
+  }
+}
+
+#typing-text-div {
+  display: flex;
+  height: 70px;
+}
+
+@media (min-width: 576px) {
+  #typing-text-div {
+    display: flex;
+    height: 40px;
+  }
+}
+
+.header-sub-title.blink {
+  font-size: 25px;
+  font-weight: 350;
+  letter-spacing: 3px;
+  line-height: 48px;
+  margin: 0;
+}
+
+#arrow-down {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  height: 0;
+  width: 0;
+  bottom: 40px;
+  font-size: 40px;
+}
+
+.projects-horizontal {
+  height: auto;
+  background-color: #f3f3f3;
+  margin: auto;
+}
+
+.container {
+  color: rgb(30, 30, 30);
+  padding-top: 7vh;
+  margin: auto;
+}
+
+.col {
+  position: relative;
+  display: block;
+  margin-bottom: 4vh;
+}
+
+@media (min-width: 576px) {
+  .col {
+    position: relative;
+    display: block;
+  }
+}
+
+.project-links {
+  color: #353536;
+  height: 20px;
+  margin-top: 10px;
+}
+
+.left-link {
+  margin-right: 20px;
+}
+
+footer {
+  width: 100%;
+  height: 5vh;
+  align-items: center;
+}
+
+.footer-text {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
