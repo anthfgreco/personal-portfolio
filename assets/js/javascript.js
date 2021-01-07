@@ -1,5 +1,5 @@
 const words = ["Also an expert in turning coffee into code.        ", 
-               "func(coffee): return \"awesome code\"       "];
+               "def myFunc(coffee): return \"awesome code\"       "];
 let i = 0;
 let timer;
 
